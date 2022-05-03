@@ -16,3 +16,4 @@ alterar prop ou estado atualiza o DOM virtual daquele bloco
 Nenhum componente pai ou filho deve saber se outro compenente possui estado ou não
 
 O estado é apenas local ao componente e caso seja necessário enviar algum atributo para outro então é feito via probs
+
