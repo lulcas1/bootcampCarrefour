@@ -1,22 +1,27 @@
-import React from "react"
+import React, { Component } from "react"
 import ReactDOM from "react-dom"
 import "./styles.css"
 
-function primeiroJSX(){
-    return(
-        <div>
-            Lucas
-        </div>
-    )
-}
+class App extends Component{
 
-const App = () =>{
+    constructor(props){
+        super(props)
 
-    return(
-        <div className="APP">
-            {primeiroJSX()}
-        </div>
-    )
+        this.state = {
+            clock: 1000,
+            copo: 'água'
+        }
+    }
+
+    render(){
+        const {clock} = this.state
+        return(
+            <div>
+                <h1>{clock}</h1>
+                
+            </div>
+        )
+    }
 }
 
 const rootElement = document.getElementById("root")
