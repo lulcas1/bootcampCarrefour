@@ -80,3 +80,4 @@ Por que determinar padrões?
 		- o que precisa ser feito
 		- qual a ordem de execução
 
+A execução repetida de uma sequência de instruções é chamada de iteração

@@ -17,3 +17,16 @@ Nenhum componente pai ou filho deve saber se outro compenente possui estado ou n
 
 O estado é apenas local ao componente e caso seja necessário enviar algum atributo para outro então é feito via probs
 
+### React
+Em React, você pode criar componentes distintos quem encapsulam o comportamento que você precisa. Então, você pode renderizar apenas alguns elesmentos, dependendo do estado da sua aplicação.
+
+### Renderização Condicional
+    - Variáveis de Elementos
+    - If inline com o operador lógico &&
+    - I-Else inline com operador condicional
+    - Evitando que um componente seja renderizado
+
+### Manipulando eventos
+em react é semlhante a manipular eventos no DOM
+Eventos em React são nomeados com camelCase ao invés de letra minúsculas
+com o JSX passa uma função como manipulador de eventos ao invés de um texto
